@@ -219,18 +219,36 @@
             <!--Paso 5-->
             <div id="div_funcion">
                 <div id="imagender">
-                    <img class="scrollflow -slide-right -opacity" src="imagenes/Etiqueta2.png" style="max-width: 100%;">
+                   <img class="scrollflow -slide-right -opacity" src="imagenes/Etiqueta2.png" style="max-width: 100%;">
                 </div>
                 <div class="scrollflow -slide-left -opacity" id="inf-funcion-der">
                        <div id="texto-inf-funcion">
                             <h3 style="font-weight: bold;">ETIQUETADO</h3>
                             <P style="font-size: 20px; color: #3B3C3D;">Etiqueta personalizada por empresa incluyendo KDE’s de 
-                                trazabilidad y código QR para visualización de trazabilidad por cliente final. 
+                                trazabilidad y código QR para visualización de trazabilidad por cliente final. Presiona el botón para visualizar un ejemplo.
                             </P>
+                            <button data-toggle="modal" data-target="#modal-etiquetado" id="boton-modal" >Etiqueta</button>
                         </div>
                 </div>
             </div>
-            
+            <div class="modal fade" id="modal-etiquetado" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="True">&times;</button>
+                            <h4>Escanea el código</h4>
+
+                        </div>
+                        <div class="modal-body">
+                            <img  src="imagenes/etiquetado.png" style="width: 100%; max-width: 500px;">
+
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         
 
         <!--Paso 6-->
